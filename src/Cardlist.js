@@ -7,6 +7,8 @@ const Cardlist = ({ movies }) => {
         key={i} id={movies.results[i].id} 
         title={movies.results[i].title} 
         image={movies.results[i].poster_path} 
+        overview={movies.results[i].overview}
+        vote_average={movies.results[i].vote_average}
         />
     })
     return (
